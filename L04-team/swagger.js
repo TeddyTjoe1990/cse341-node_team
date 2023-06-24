@@ -3,10 +3,10 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
   info: {
     title: 'My API',
-    description: 'Temple API'
+    description: 'Temple API',
   },
-  host: 'nathan-byui-api.onrender.com',
-  schemes: ['https']
+  host: 'localhost:8080',
+  schemes: ['http'],
 };
 
 const outputFile = './swagger.json';
